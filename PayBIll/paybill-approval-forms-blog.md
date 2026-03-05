@@ -1,4 +1,11 @@
-# Engineering the PayBill Forms: Validation Binding and the Approval Engine
+<div align="center">
+  <p><i>PayBill Engineering Series &middot; Chapter 3</i></p>
+  <a href="./README.md">← Back to Table of Contents</a>
+</div>
+
+---
+
+# The Engine: Forms Validation Binding and the Approval Flow
 
 Forms are inherently difficult in mobile development. Combine complex forms with asynchronous financial approval workflows, and you have a recipe for brittle, hard-to-maintain code.
 
@@ -63,3 +70,11 @@ Not every transaction succeeds. The engine handles complex denial paths:
 ![UI Options to upload receipts or edit the transaction form directly from the detail view.](./assets/images/transaction-form-actions.png)
 
 By strictly mapping these states and relying on our Zod schemas to ensure data integrity at every step of resubmission, the PayBill Approval Engine creates a frictionless, auditable, and immutable record of every penny processed through the system.
+
+---
+
+<div align="center">
+  <a href="./paybill-qr-scanning-blog.md">Next Chapter: The Bridge (QR Scanning) →</a>
+  <br /><br />
+  <a href="./README.md">← Return to Table of Contents</a>
+</div>

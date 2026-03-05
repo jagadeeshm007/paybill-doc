@@ -1,4 +1,11 @@
-# PayBill Architecture: Robust Role-Based Access Control and Secure Authentication
+<div align="center">
+  <p><i>PayBill Engineering Series &middot; Chapter 2</i></p>
+  <a href="./README.md">← Back to Table of Contents</a>
+</div>
+
+---
+
+# The Vault: Robust Role-Based Access Control and Secure Authentication
 
 In financial and enterprise applications, security isn't just a feature—it's the foundational layer of the entire product. At PayBill, we manage sensitive financial transactions, requiring a security architecture that is both impenetrable and totally transparent to authorized users.
 
@@ -79,3 +86,11 @@ UI hiding is not security. Our backend APIs enforce strict JWT payload checking.
 3. **Enterprise Readiness:** The combination of native biometric locking, encrypted keychain storage, and strict RBAC puts PayBill on par with top-tier banking applications.
 
 Security in PayBill is never an afterthought; it is built strictly into the DNA of the application architecture.
+
+---
+
+<div align="center">
+  <a href="./paybill-approval-forms-blog.md">Next Chapter: The Engine (Forms & Approvals) →</a>
+  <br /><br />
+  <a href="./README.md">← Return to Table of Contents</a>
+</div>

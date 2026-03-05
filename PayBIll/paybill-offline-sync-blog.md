@@ -1,4 +1,11 @@
-# Offline First: Engineering PayBill's Auto Re-Sync and Edge Reliability Architecture
+<div align="center">
+  <p><i>PayBill Engineering Series &middot; Chapter 5</i></p>
+  <a href="./README.md">← Back to Table of Contents</a>
+</div>
+
+---
+
+# The Edge: Auto Re-Sync and Edge Reliability Architecture
 
 Mobile devices lose signal. They transition from 5G to spotty edge networks, drop connections in elevators, and disconnect entirely on subways.
 
@@ -61,3 +68,9 @@ The most complex part of offline syncing is conflict resolution. What if an Admi
 Our Approval Engine handles this by strictly versioning timestamps array parameters. The Supabase backend operates on a "Last Server Write Wins" policy with strict constraints. If the backend detects a status mismatch between the client's offline payload and the server's current reality, it rejects the flush attempt and triggers a UI notification to the user to manually reconcile the difference.
 
 By combining persistent local caching, a background sync queue, and strict server-side state enforcement, PayBill guarantees extreme reliability regardless of the user's physical environment.
+
+---
+
+<div align="center">
+  <a href="./README.md">← Return to Table of Contents</a>
+</div>

@@ -1,4 +1,11 @@
-# Building PayBill's Seamless QR Code Scanner and Generator
+<div align="center">
+  <p><i>PayBill Engineering Series &middot; Chapter 4</i></p>
+  <a href="./README.md">← Back to Table of Contents</a>
+</div>
+
+---
+
+# The Bridge: Seamless QR Code Scanner and Generator
 
 Mobile payments inherently require interacting with the physical world. In consumer fintech, QR code scanning is the bridge between a physical storefront and a digital transaction.
 
@@ -61,3 +68,11 @@ Users can screenshot the generated code or use our "Copy to Clipboard" functiona
 ## 4. Conclusion
 
 By separating the QR scanner into a standalone, hardware-accelerated feature route and coupling it with immediate programmatic routing, PayBill eliminates the clunky friction often associated with mobile payments. Our implementation bridges the physical and digital worlds seamlessly, reliably, and instantly.
+
+---
+
+<div align="center">
+  <a href="./paybill-offline-sync-blog.md">Next Chapter: The Edge (Offline Sync) →</a>
+  <br /><br />
+  <a href="./README.md">← Return to Table of Contents</a>
+</div>

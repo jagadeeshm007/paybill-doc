@@ -1,4 +1,11 @@
-# Building PayBill: A Modern React Native App for Seamless Transactions
+<div align="center">
+  <p><i>PayBill Engineering Series &middot; Chapter 1</i></p>
+  <a href="./README.md">← Back to Table of Contents</a>
+</div>
+
+---
+
+# The Foundation: A Modern React Native App for Seamless Transactions
 
 In the rapidly evolving financial technology space, managing bills and peer-to-peer transactions on mobile devices often means dealing with clunky interfaces, fragmented user experiences, and sluggish performance.
 
@@ -131,3 +138,11 @@ Our engineering roadmap includes several key upgrades focusing on localized edge
 ## Conclusion
 
 PayBill represents a polished, modern approach to mobile transaction applications. By prioritizing extreme architectural decoupling, leveraging powerful state management patterns, and strictly enforcing UI thread animations, the project serves as a robust benchmark for building production-grade React Native architectures.
+
+---
+
+<div align="center">
+  <a href="./paybill-security-auth-rbac-blog.md">Next Chapter: The Vault (Security & RBAC) →</a>
+  <br /><br />
+  <a href="./README.md">← Return to Table of Contents</a>
+</div>
