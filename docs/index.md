@@ -1,4 +1,4 @@
-# Jagadeesh M - Engineering Blog
+# Jagadeesh Mandala - Software Developer
 
 Welcome to my professional engineering blog and portfolio!
 
