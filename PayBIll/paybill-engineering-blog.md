@@ -9,7 +9,7 @@ In the rapidly evolving financial technology space, managing bills and peer-to-p
 
 ---
 
-![PayBill Home Dashboard](/home/jagadeesh/myProjects/PayBIll/assets/images/home-dashboard.png)
+![PayBill Home Dashboard](./assets/images/home-dashboard.png)
 _The PayBill Home Dashboard showing an overview of recent transactions and active projects._
 
 ## The Problem Statement
@@ -45,7 +45,7 @@ This unidirectional data flow creates a predictable application lifecycle:
 
 ---
 
-![Transactions List](/home/jagadeesh/myProjects/PayBIll/assets/images/transactions-list.png)
+![Transactions List](./assets/images/transactions-list.png)
 _A fast, filterable transactions list powered by Zustand and Supabase._
 
 ## Technology Stack
@@ -66,7 +66,7 @@ Every piece of technology in PayBill was chosen to optimize developer velocity w
 
 ---
 
-![Biometric Authentication](/home/jagadeesh/myProjects/PayBIll/assets/images/biometric-auth.png)
+![Biometric Authentication](./assets/images/biometric-auth.png)
 _Secure biometric unlock screen preventing unauthorized access._
 
 ## Domain-Driven Project Structure
@@ -108,7 +108,7 @@ Upon completing a transaction, we generate localized `BottomSheetModal` componen
 
 ---
 
-![Transaction Review Step](/home/jagadeesh/myProjects/PayBIll/assets/images/transaction-review.png)
+![Transaction Review Step](./assets/images/transaction-review.png)
 _A multi-step transaction review screen seamlessly handling complex form inputs._
 
 ## Overcoming Architectural Challenges
