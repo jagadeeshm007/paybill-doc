@@ -1,10 +1,10 @@
 site_name: Jagadeesh Mandala - Software Developer
 site_description: Software Engineering Projects, Architecture, and DevOps writing by Jagadeesh Mandala.
 site_author: Jagadeesh Mandala
-site_url: https://jagadeeshm007.github.io/paybill-doc/
+site_url: https://jagadeeshm007.github.io/documentation/
 
-repo_name: jagadeeshm007/paybill-doc
-repo_url: https://github.com/jagadeeshm007/paybill-doc
+repo_name: jagadeeshm007/documentation
+repo_url: https://github.com/jagadeeshm007/documentation
 edit_uri: edit/main/docs/
 
 theme:
